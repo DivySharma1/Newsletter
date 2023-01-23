@@ -42,7 +42,7 @@ app.post("/", function(req,res){
         var code=response.statusCode;
         var errorCode=response.error_count;
         console.log(code);
-        if (code==200 && errorCode==0) {
+        if (code==200 ) {
             res.sendFile(__dirname+ "/success.html");
         } 
         else {
