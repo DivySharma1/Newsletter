@@ -35,7 +35,7 @@ app.post("/", function(req,res){
     const url="https://us11.api.mailchimp.com/3.0/lists/43fad840ab";
     const options={
         method:"post",
-        auth: "divy:74670d8b1992ee4dacd0cd1eb2b3c27a-us11"
+        auth: "divy:0222448b3b234fed7db428aaa605847e-us11"
     }
 
     const request=https.request(url, options, function(response){
@@ -68,7 +68,7 @@ app.listen(process.env.PORT || 3000, function(){
 });
 
 // api key
-// 74670d8b1992ee4dacd0cd1eb2b3c27a-us11
+// 0222448b3b234fed7db428aaa605847e-us11
 
 // list id
 // 43fad840ab
